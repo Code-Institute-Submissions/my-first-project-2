@@ -15,6 +15,11 @@ header {
     height: 105px;
 }
 
+.social-links-hover .hvr-sweep-to-right:before {
+    background: #fafafa;
+    height: 45px;
+}
+
 .menuitem:hover span {
     color: #000000;
 }
@@ -23,6 +28,14 @@ header {
     color: #000000;
 }
 
+.social-hover:hover span {
+    color: #000000;
+
+}
+
+.social-hover:hover i {
+    color: #000000;
+}
 
 /*------------------------------General/Special/reusable CSS*/
 
@@ -34,7 +47,7 @@ header {
     color: #fafafa;
     font-family: "chonburi", sans-serif;
     font-weight: 200;
-
+    margin-top: 25px;
 }
 
 
@@ -47,6 +60,10 @@ header {
     background-position: center;
     padding: 0;
     margin-top: 20px;
+    transition: all .5 ease-in-out;
+    -moz-transition: all .5 ease-in-out;
+    -o-transition: all .5 ease-in-out;
+    -webkit-transition: all .5 ease-in-out;
 }
 
 #title-1 {
@@ -125,9 +142,57 @@ header {
 
 footer {
     background-color: #000000;
-    min-height: 120px;
+    min-height: 300px;
+    height: 350px;
 }
 
 .social-links {
     margin-left: 10px;
+}
+
+.social-links i {
+    padding: 10px;
+    color: #fafafa;
+    font-size: 2em;
+}
+
+.social-links-text {
+    font-family: "chonburi", sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+    margin-top: 21px;
+}
+
+.row-table {
+    display: table;
+}
+
+.btn {
+    margin-top: 3px;
+}
+
+#updates {
+    color: #fafafa;
+    font-family: "chonburi", sans-serif;
+    font-weight: 300;
+    margin-top: 17px;
+}
+
+.contact-heading {
+    font-family: "chonburi", sans-serif;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.center-form {
+
+    margin: 0 auto;
+}
+
+.contact-us-text {
+    color: #fafafa;
+}
+
+.move-contact {
+    padding-right: 25px;
 }
