@@ -23,14 +23,29 @@ header {
     color: #000000;
 }
 
-/*------------------------------Heading  */
+
+/*------------------------------General/Special/reusable CSS*/
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    color: #fafafa;
+    font-family: "chonburi", sans-serif;
+    font-weight: 200;
+
+}
+
+
+/*------------------------------Header  */
 
 .logo {
     background: url("../images/blacksheep.jpg");
-    height:100px;
+    height: 100px;
     background-repeat: no-repeat;
     background-position: center;
-    padding:0;
+    padding: 0;
     margin-top: 20px;
 }
 
@@ -51,13 +66,13 @@ header {
     color: #fafafa;
     line-height: 150%;
     font-size: 50px;
-    
+
 }
 
 #nav {
     margin: 0;
     display: inline-block;
-    width:100%;
+    width: 100%;
 }
 
 #nav li {
@@ -99,27 +114,20 @@ header {
 }
 
 
-/*------------------------------General/Special/reusable CSS*/
+/*------------------------------Section*/
 
-.uppercase{
-    text-transform: uppercase;
+.section {
+    background-color: #d0d3d4;
+    min-height: 120px;
 }
-
-.general-sub{
-    color:#fafafa;
-    font-family: "chonburi", sans-serif;
-    font-weight: 200;
-    
-}
-
 
 /*------------------------------Footer*/
 
-footer{
+footer {
     background-color: #000000;
     min-height: 120px;
 }
 
-.social-links{
+.social-links {
     margin-left: 10px;
 }
