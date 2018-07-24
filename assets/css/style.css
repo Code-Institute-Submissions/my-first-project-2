@@ -148,13 +148,11 @@ footer {
 }
 
 .block-divider--red {
-    background-color: #f22626;
-
+    background-color: #ec6060;
 }
 
 .jumbotron {
     background-color: transparent;
-
 }
 
 .jumbotron h1 {
@@ -162,7 +160,6 @@ footer {
     font-size: 40px;
     font-weight: 500;
     color: #fafafa;
-
 }
 
 
@@ -188,6 +185,13 @@ footer {
     padding-left: 20px;
     padding-right: 20px;
     overflow: auto;
+
+}
+
+#text-background {
+    background: rgb(0, 0, 0);
+    /* fallback color */
+    background: rgba(0, 0, 0, 0.7);
 }
 
 
@@ -236,7 +240,88 @@ footer {
 
 
 
+/*------------------------------The Band*/
 
+#band-header-text {
+    font-family: "chonburi", sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    color: #fafafa;
+    padding: 0;
+    margin: 0;
+}
+
+.section-container2 {
+    height: 100vh;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)),
+    url("../images/section-background.jpg");
+    padding: 0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.band-pic {
+    background-repeat: no-repeat;
+    height: 255px;
+    width: 255px;
+    margin-left: 15px;
+}
+
+#dj {
+    background-image: url("../images/dj.jpg");
+}
+
+#md {
+    background-image: url("../images/md.jpg");
+
+}
+
+#mn {
+    background-image: url("../images/mn.jpg");
+}
+
+#pt {
+    background-image: url("../images/pt.jpg");
+}
+
+.band-name-text {
+    font-family: "chonburi", sans-serif;
+    color: #fafafa;
+    font-weight: 400;
+    font-size: 26px;
+}
+
+.img-wrap {
+    height: 255px;
+    width: 255px;
+    
+}
+
+.band-desc {
+    
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(29, 106, 154, 0.72);
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+
+
+    transition: opacity .2s, visibility .2s;
+}
+
+.img-wrap:hover .band-desc {
+    visibility: visible;
+    opacity: 1;
+}
 
 
 /*------------------------------Footer*/
