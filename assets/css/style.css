@@ -3,16 +3,22 @@
 /*------------------------------Colors  */
 
 header {
-    background-color: #000000;
+    background-color: #ec6060;
 }
 
+.section {
+    background-color: #ec6060;
+}
 
+footer {
+    background-color: #ec6060;
+}
 
 /*------------------------------hover.css  */
 
 .hvr-sweep-to-right:before {
     background: #fafafa;
-    height: 105px;
+    height: 104px;
 }
 
 .social-links-hover .hvr-sweep-to-right:before {
@@ -53,28 +59,11 @@ header {
 
 /*------------------------------Header  */
 
-.logo {
-    background: url("../images/blacksheep.jpg");
-    height: 100px;
-    background-repeat: no-repeat;
-    background-position: center;
-    padding: 0;
-    margin-top: 20px;
-    transition: all .5 ease-in-out;
-    -moz-transition: all .5 ease-in-out;
-    -o-transition: all .5 ease-in-out;
-    -webkit-transition: all .5 ease-in-out;
+#title {
+    text-align: center;
 }
 
-#title-1 {
-    text-align: right;
-    margin-right: 20px;
-}
 
-#title-2 {
-    text-align: left;
-    margin-left: 20px;
-}
 
 .title-text {
     text-transform: uppercase;
@@ -94,6 +83,7 @@ header {
 
 #nav li {
     padding: 0;
+    margin: 0;
 }
 
 .menuitem {
@@ -133,15 +123,125 @@ header {
 
 /*------------------------------Section*/
 
-.section {
-    background-color: #d0d3d4;
-    min-height: 120px;
+.section-container {
+    height: 100vh;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)),
+    url("../images/section-background.jpg");
+    padding: 0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
 }
+
+.block-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+    background-color: #444;
+}
+
+.block-divider--red {
+    background-color: #f22626;
+
+}
+
+.jumbotron {
+    background-color: transparent;
+
+}
+
+.jumbotron h1 {
+    font-family: "chonburi", sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    color: #fafafa;
+
+}
+
+
+#button-text {
+    font-family: "chonburi", sans-serif;
+    font-weight: 400;
+    color: #fafafa;
+
+}
+
+.button-text-book {
+    margin-left: 280px;
+}
+
+#collapse-text {
+    font-family: "chonburi", sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    overflow: auto;
+}
+
+
+
+#collapse-img {
+
+    height: 200px;
+    float: right;
+    transition: all .5 ease-in-out;
+    -moz-transition: all .5 ease-in-out;
+    -webkit-transition: all .5 ease-in-out;
+    padding-left: 10px;
+
+
+
+}
+
+@media only screen and (max-width: 900px) {
+    #collapse-img {
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 480px) {
+    .jumbotron h1 {
+        margin-left: 40px;
+        margin-right: 40px;
+        overflow: scroll;
+    }
+}
+
+@media only screen and (max-width: 684px) {
+    .jumbotron h1 {
+        margin-top: 110px;
+        overflow: scroll;
+    }
+}
+
+@media only screen and (max-width: 684px) {
+    .section-container {
+        overflow: scroll;
+
+    }
+}
+
+
+
+
+
 
 /*------------------------------Footer*/
 
 footer {
-    background-color: #000000;
     min-height: 300px;
     height: 350px;
 }
