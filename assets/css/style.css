@@ -17,12 +17,12 @@ footer {
 /*------------------------------hover.css  */
 
 .hvr-sweep-to-right:before {
-    background: #fafafa;
+    background: #ec6060;
     height: 104px;
 }
 
 .social-links-hover .hvr-sweep-to-right:before {
-    background: #fafafa;
+    background: #ec6060;
     height: 45px;
 }
 
@@ -269,8 +269,8 @@ footer {
 .band-pic {
     background-repeat: no-repeat;
     height: 255px;
-    width: 255px;
-    margin-left: 15px;
+    width: 255%;
+    margin-left: 32px;
 }
 
 #dj {
@@ -293,35 +293,85 @@ footer {
 .band-name-text {
     font-family: "chonburi", sans-serif;
     color: #fafafa;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 26px;
 }
 
-.img-wrap {
+/*.img-wrap {
     height: 255px;
     width: 255px;
     
-}
+} */
 
-.band-desc {
-    
+.overlay {
+    position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
-    background: rgba(29, 106, 154, 0.72);
-    color: #fff;
-    visibility: hidden;
+    height: 255px;
+    width: 280px;
     opacity: 0;
+    transition: .5s ease;
+    background-color: transparent;
+    margin-top: 20px;
 
-
-    transition: opacity .2s, visibility .2s;
 }
 
-.img-wrap:hover .band-desc {
-    visibility: visible;
+.gen-desc {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: left;
+    margin-top: 35px;
+    margin-right: 5px;
+    margin-bottom: 130px;
+}
+
+.img-container:hover .overlay {
     opacity: 1;
 }
+
+.img-container:hover .band-pic {
+    opacity: 0.5;
+    transition: .5s ease;
+}
+
+.band-desc {
+    font-family: "chonburi", sans-serif;
+    color: #fafafa;
+    font-weight: 400;
+    font-size: 16px;
+    opacity: 1;
+}
+
+.img-container p a {
+    color: #fafafa;
+}
+
+/*------------------------------Media*/
+
+.section-container3 {
+    min-height: 100vh;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)),
+    url("../images/section-background.jpg");
+    padding: 0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+
 
 
 /*------------------------------Footer*/
