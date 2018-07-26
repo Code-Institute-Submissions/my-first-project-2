@@ -49,13 +49,6 @@ footer {
     text-transform: uppercase;
 }
 
-.general-sub {
-    color: #fafafa;
-    font-family: "chonburi", sans-serif;
-    font-weight: 200;
-    margin-top: 25px;
-}
-
 .jumbotron {
     background-color: transparent;
     padding: 24px;
@@ -164,9 +157,6 @@ footer {
     background-color: #ec6060;
 }
 
-
-
-
 #button-text {
     font-family: "chonburi", sans-serif;
     font-weight: 400;
@@ -192,7 +182,7 @@ footer {
 
 }
 
-#text-background {
+.text-background {
     background: rgb(0, 0, 0);
     /* fallback color */
     background: rgba(0, 0, 0, 0.7);
@@ -378,7 +368,7 @@ footer {
 }
 
 .gallery {
-    
+
     padding-top: 10px;
 }
 
@@ -424,8 +414,45 @@ video {
     margin-bottom: 30px;
 }
 
+/*-----------------------------Booking*/
+
+.booking-page-text {
+    color: #fafafa;
+    font-family: "chonburi", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    margin: 0px 200px;
+
+}
+
+.form-center {
+    display: block;
+    text-align: center;
+
+}
+
+form {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    padding: 10px;
+}
+
+.label {
+    color: #fafafa;
+    font-family: "chonburi", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+}
 
 
+@media only screen and (max-width: 700px) {
+    .booking-page-text{
+        
+        margin: 0;
+    }
+}
 
 /*------------------------------Footer*/
 
