@@ -52,7 +52,7 @@
 		</div>
 
 		<div class="form-center">
-			<form>
+			<form class="booking-form">
 
 				<table>
 					<tr>
@@ -65,7 +65,7 @@
 					</tr>
 					<tr>
 						<td> <label for="event-type" class="label">What sort of event is it?</label></td>
-						<td><input type="text" name="event-type" id="event-type" size="30" placeholder ="Wedding, Birthday etc..." required/><br></td>
+						<td><input type="text" name="event-type" id="event-type" size="30" placeholder="Wedding, Birthday etc..." required/><br></td>
 					</tr>
 					<tr>
 						<td><label for="date" class="label">Date of Event:</label></td>
@@ -109,7 +109,7 @@
 					<tr>
 						<td></td>
 						<td>
-							<button class ="btn btn-success">Book The Monkees!</button>
+							<button class="btn btn-success">Book The Monkees!</button>
 						</td>
 					</tr>
 				</table>
@@ -137,12 +137,21 @@
 					<h5 class="uppercase text-center">Ask away!</h5>
 				</div>
 				<div class="center-form">
-					<form>
-						<input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
-						<input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
-						<textarea rows="3" name="projectsummary" class="form-control" id="projectsummary" placeholder="Question" required></textarea>
-						<button type="submit" class="btn btn-success center-block">SUBMIT</button>
+					<form class="question-form">
+						<tr>
+							<td><input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/></td>
+						</tr>
+						<tr>
+							<td><input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/></td>
+						</tr>
+						<tr>
+							<td><textarea rows="3" name="projectsummary" class="form-control" id="projectsummary" placeholder="Question" required></textarea></td>
+						</tr>
+						<tr>
+							<td><button type="submit" class="btn btn-success center-block">SUBMIT</button></td>
+						</tr>
 					</form>
+					</table>
 				</div>
 			</div>
 
