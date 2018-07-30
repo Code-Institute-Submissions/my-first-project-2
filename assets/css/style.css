@@ -383,21 +383,21 @@ footer {
     text-align: center;
 }
 
-.responsive {
+.gallery-container {
     padding: 0 6px;
     float: left;
     width: 33.3333%;
 }
 
 @media only screen and (max-width: 700px) {
-    .responsive {
+    .gallery-container {
         width: 49.99999%;
         margin: 6px 0;
     }
 }
 
 @media only screen and (max-width: 500px) {
-    .responsive {
+    .gallery-container {
         width: 100%;
     }
 }
