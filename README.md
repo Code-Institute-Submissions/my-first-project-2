@@ -1,6 +1,25 @@
 The First Milestone Project
 
-Initial Structure - Header, footer and section background:
+Clone:
+
+git clone https://github.com/jstokes1994/my-first-project.git
+
+File structure:
+
+- first-project
+    - assets
+        - css
+            - style.css
+        - images
+        - videos
+    - band.html
+    - booking.html
+    - index.html
+    - videos.html
+
+        
+
+Initial Sructure - Header, footer and section background:
 
 First I created the header and footer which was a constant across each webpage.
 The header features the band name at the top of the page, on its own row. I
