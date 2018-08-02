@@ -67,7 +67,8 @@ queries, when the viewport reached the first breakpoint of 700px, this was
 changed to 49.99% to take up half and show 2 images per row. At 500px each image
 took up 100%, therefore 1 image per row. On this page I used clearfix so the 
 elements would self-clear its children and allow the images to stay within the
-container.
+container. The responsive aspect of the gallery I learnt from an example found 
+on W3Schools.
 
 Beneath the gallery the video was added in the middle of the page.
 
