@@ -12,12 +12,30 @@ File structure:
             - style.css
         - images
         - videos
+        - wireframes
     - band.html
     - booking.html
     - index.html
     - videos.html
 
-        
+
+UX:
+
+The website is aimed at music fans. I wanted any user to be met with a simple,
+uncluttered layout that would be very easy to find out a little about the band,
+before potentially booking them for an event.
+
+UX stories I considered:
+
+- An individual wanting to find out more about The Monkees
+- An individual wanting to find a band to book for their wedding
+- A user looking to connect with the band's social media
+- A user that has a question about The Monkees
+- A user that wants to stay in touch with The Monkees latest developments
+- Someone that wants to listen to The Monkees content before booking
+
+The wireframes I created are located in the 'wireframes' directory.
+
 
 Initial Structure - Header, footer and section background:
 

@@ -165,7 +165,7 @@ footer {
 }
 
 .button-text-book {
-    margin-left: 280px;
+    margin-left: 150px;
 }
 
 #collapse-text {
@@ -180,6 +180,14 @@ footer {
     padding-right: 20px;
     overflow: auto;
 
+}
+
+#link-wiki {
+    font-family: "chonburi", sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+    text-decoration: underline;
+    text-align: center;
 }
 
 .text-background {
