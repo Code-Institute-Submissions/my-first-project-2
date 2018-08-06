@@ -16,7 +16,7 @@ File structure:
     - band.html
     - booking.html
     - index.html
-    - videos.html
+    - media.html
 
 
 UX:
