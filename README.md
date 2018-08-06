@@ -19,7 +19,7 @@ File structure:
 
         
 
-Initial Sructure - Header, footer and section background:
+Initial Structure - Header, footer and section background:
 
 First I created the header and footer which was a constant across each webpage.
 The header features the band name at the top of the page, on its own row. I
